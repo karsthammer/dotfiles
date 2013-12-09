@@ -39,6 +39,7 @@ set cursorcolumn
 " Numbers
 set number
 set numberwidth=5
+set relativenumber
 
 " Quicker window movement
 nnoremap <C-j> <C-w>j
