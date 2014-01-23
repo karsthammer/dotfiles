@@ -33,8 +33,8 @@ set splitbelow
 set splitright
 
 " Show current cursor position
-set cursorline
-set cursorcolumn
+" set cursorline
+" set cursorcolumn
 
 " Numbers
 set number
