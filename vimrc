@@ -99,3 +99,6 @@ let g:surround_45 = "<% \r %>"
 let g:surround_61 = "<%= \r %>"
 
 set hidden
+
+" Syntastic
+let g:syntastic_auto_loc_list = 1 " Open the error window automatically when there are errors. And automatically close when there are no errors.
