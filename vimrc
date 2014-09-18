@@ -47,17 +47,20 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
+" Quick buffer navigation
+nnoremap gb :buffers<CR>:b<Space>
+
 " Bubble single lines
 nmap <C-Up> [e
 nmap <C-Down> ]e
-nmap <C-k> [e
-nmap <C-j> ]e
+" nmap <C-k> [e
+" nmap <C-j> ]e
 
 " Bubble multiple lines
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
-vmap <C-k> [egv
-vmap <C-j> ]egv
+" vmap <C-k> [egv
+" vmap <C-j> ]egv
 
 " Display extra whitespace
 " set list listchars=tab:»·,trail:·

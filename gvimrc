@@ -39,6 +39,11 @@ if has("gui_macvim")
   imap <D-8> <esc>:tabfirst<Cr>8gt
   imap <D-9> <esc>:tabfirst<Cr>9gt
 
+  " Commenting
+  nmap <D-/> :TComment<CR>
+  imap <D-/> <ESC>:TComment<CR>i
+  vmap <D-/> :TComment<CR>gv
+
   " Remap Command-T to Command-Shift-T
   macmenu &File.New\ Tab key=<D-S-t>
 
