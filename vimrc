@@ -28,6 +28,12 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+" Set undofiles
+set undodir=~/.vim/undodir
+set undofile
+set undolevels=1000 "maximum number of changes that can be undone
+set undoreload=10000 "maximum number lines to save for undo on a buffer reload
+
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
 set splitright
