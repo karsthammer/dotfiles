@@ -95,7 +95,9 @@ if has("autocmd")
   au BufReadPost * if &filetype !~ '^git\c' && line("'\"") > 0 && line("'\"") <= line("$")
       \| exe "normal! g`\"" | endif
 
-  autocmd FileType ruby set sw=2 sts=2 noet
+  autocmd FileType ruby set sw=2 sts=2 et
+  " Make ruby see ? and ! inclusive in the keyword
+  autocmd FileType ruby set iskeyword=@,!,?,48-57,_,192-255
   autocmd FileType erb  set sw=2 sts=2 noet
   autocmd FileType yaml set sw=2 sts=2 et
 endif
