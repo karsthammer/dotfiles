@@ -128,3 +128,6 @@ endif
 
 " Syntastic
 let g:syntastic_auto_loc_list = 1 " Open the error window automatically when there are errors. And automatically close when there are no errors.
+
+" EditorConfig exclude fugitive files
+let g:EditorConfig_exclude_patterns = ['fugitive://.*']

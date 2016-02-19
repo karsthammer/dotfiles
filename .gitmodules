@@ -52,3 +52,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/editorconfig"]
+	path = bundle/editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim.git
