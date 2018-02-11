@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ShortcutRecorder mainHotkey</key>
+	<dict>
+		<key>keyCode</key>
+		<integer>9</integer>
+		<key>modifierFlags</key>
+		<integer>1179648</integer>
+	</dict>
+	<key>bezelAlpha</key>
+	<real>0.90000000000000002</real>
+	<key>bezelHeight</key>
+	<real>231.23648356401384</real>
+	<key>bezelWidth</key>
+	<real>379.31390570934252</real>
+	<key>displayClippingSource</key>
+	<false/>
+	<key>loadOnStartup</key>
+	<true/>
+	<key>menuIcon</key>
+	<integer>2</integer>
+	<key>rememberNum</key>
+	<real>99</real>
+	<key>saveForgottenFavorites</key>
+	<false/>
+	<key>skipPasswordFields</key>
+	<false/>
+	<key>skipPboardTypes</key>
+	<false/>
+	<key>stickyBezel</key>
+	<false/>
+	<key>store</key>
+	<dict>
+		<key>displayLen</key>
+		<integer>40</integer>
+		<key>displayNum</key>
+		<integer>10</integer>
+		<key>favoritesList</key>
+		<array/>
+		<key>favoritesRememberNum</key>
+		<integer>40</integer>
+		<key>jcList</key>
+		<array>
+		</array>
+		<key>rememberNum</key>
+		<integer>99</integer>
+		<key>version</key>
+		<string>0.7</string>
+	</dict>
+	<key>wraparoundBezel</key>
+	<true/>
+</dict>
+</plist>

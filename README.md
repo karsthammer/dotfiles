@@ -1,22 +1,25 @@
-My vim configuration
+My dotfiles configuration
 ====================
 
-Installation
+Clone repository
+----------------
+
+```bash
+git clone https://github.com/karsthammer/dotfiles.git ~/.dotfiles --recursive
+```
+
+Mac setup
+----------
+
+```bash
+~/.dotfiles/setup-mac.sh
+```
+
+
+VIM setup
 ------------
 
 ```bash
-git clone https://github.com/karsthammer/dotfiles.git ~/.vim
-cd ~/.vim
-git submodule init
-git submodule update
-ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.vim/gvimrc ~/.gvimrc
-```
-
-OR
-
-```bash
-git clone https://github.com/karsthammer/dotfiles.git ~/.vim --recursive
-ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.vim/gvimrc ~/.gvimrc
+ln -s ~/.dotfiles/vimrc ~/.vimrc
+ln -s ~/.dotfiles/gvimrc ~/.gvimrc
 ```
