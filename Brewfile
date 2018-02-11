@@ -21,6 +21,7 @@ brew "ruby-build"
 # Dependencies
 brew "imagemagick"
 brew "freetds"
+brew "v8"
 
 # Tools
 brew "coreutils"
@@ -71,7 +72,7 @@ brew "elasticsearch@2.4", restart_service: true
 cask "atom"
 cask "coconutbattery"
 cask "cyberduck"
-cask "docker"
+cask "docker-edge"
 cask "flycut"
 cask "gitx"
 cask "google-chrome"
