@@ -85,9 +85,9 @@ cask "sequel-pro"
 cask "slack"
 cask "spotify"
 cask "spotify-notifications"
-cask "sqlpro-studio"
 cask "viscosity"
 cask "wkhtmltopdf"
 
 # Mac App store
 mas "YubiKey Personalization Tool", id: 638161122
+mas "Microsoft Remote Desktop 8.0", id: 715768417
