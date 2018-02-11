@@ -12,7 +12,7 @@ brew "bash-completion"
 
 # Packages
 brew "vim"
-brew "macvim"
+cask "macvim"
 
 # Ruby
 brew "rbenv"
