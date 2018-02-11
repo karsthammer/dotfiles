@@ -1,3 +1,4 @@
+set runtimepath=$HOME/.dotfiles
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
