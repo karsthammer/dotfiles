@@ -91,3 +91,6 @@ cask "wkhtmltopdf"
 # Mac App store
 mas "YubiKey Personalization Tool", id: 638161122
 mas "Microsoft Remote Desktop 8.0", id: 715768417
+
+# Yubikey
+brew "ykman"
