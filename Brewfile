@@ -65,7 +65,7 @@ brew "sbt"
 
 # Services
 brew "redis",             restart_service: true
-brew "mysql",           restart_service: true
+brew "mysql",             restart_service: true
 brew "elasticsearch@2.4", restart_service: true
 
 # GUI tools
