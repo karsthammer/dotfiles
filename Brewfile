@@ -70,6 +70,7 @@ brew "elasticsearch@2.4", restart_service: true
 
 # GUI tools
 cask "atom"
+cask "chefdk"
 cask "coconutbattery"
 cask "cyberduck"
 cask "docker-edge"
